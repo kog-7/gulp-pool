@@ -1,0 +1,24 @@
+{
+  "name": "gulp-pool",
+  "version": "1.0.2",
+  "description": "include any files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "include any files"
+  ],
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3",
+    "uglify-js": "^3.2.2"
+  },
+  "author": "kog-7",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kog-7/gulp-pool.git"
+  }
+}
