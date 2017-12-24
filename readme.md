@@ -1,7 +1,6 @@
 #   gulp-jspool   #
 
 include any files
-
 ![](https://img.shields.io/npm/v/gulp-pool.svg?style=flat)
 
 ## Installation
@@ -15,7 +14,7 @@ npm install gulp-pool
   let pool=require("gulp-pool");
   ...
   gulp.src("main.js").pipe(pool()).pipe(gulp.dest("dest"));
-  //you use pool({data:{name:"",age:""}}) to configure data parameters in the template
+  //you can use pool({data:{name:"",age:""}}) to configure data parameters in the template
 ```
 
 ## write
