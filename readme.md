@@ -10,6 +10,10 @@ npm install gulp-pool
 
 ## use
 ```js  
+//in code
+'@include(./src/ctr.js)'
+
+//in gulpfile.js
   ...
   let pool=require("gulp-pool");
   ...
